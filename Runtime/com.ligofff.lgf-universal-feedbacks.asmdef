@@ -1,6 +1,9 @@
 {
     "name": "com.ligofff.lgf-universal-feedbacks",
-    "references": [],
+    "rootNamespace": "",
+    "references": [
+        "GUID:2ed29fb42c31185478f4d52958fcbe38"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
