@@ -1,0 +1,11 @@
+{
+  "name": "Unity.com.ligofff.lgf-universal-feedbacks.Editor.Tests",
+  "references": [
+    "Unity.com.ligofff.lgf-universal-feedbacks"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}

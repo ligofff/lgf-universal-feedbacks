@@ -1,0 +1,27 @@
+{
+  "name": "com.ligofff.lgf-universal-feedbacks",
+  "displayName": "Ligofff - LGF Universal Feedbacks",
+  "version": "0.1.0",
+  "unity": "2022.2",
+  "description": "Package, that can help you to add sound {{DESCRIPTION}} visual feedbacks to different events in your game",
+  "keywords": [
+    "unity",
+	"unity3d",
+	"upm",
+    "ligofff",
+    "utility"
+  ],
+  "homepage": "https://github.com/ligofff/lgf-universal-feedbacks.git",
+  "bugs": {
+    "url": "https://github.com/ligofff/lgf-universal-feedbacks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ligofff/lgf-universal-feedbacks.git"
+  },
+  "license": "MIT",
+  "author": "Ligofff (https://ligofff.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
