@@ -4,7 +4,7 @@ using UnityEngine;
 [Serializable]
 public abstract class BaseFeedbackOption<T>
 {
-    public void PlayFeedback(T obj)
+    public virtual void PlayFeedback(T obj, string eventCode)
     {
         if (!IsValidForFeedback(obj))
         {
@@ -14,10 +14,10 @@ public abstract class BaseFeedbackOption<T>
             
         if (!IsCanPlay(obj)) return;
             
-        PlayFeedbackInternal(obj);
+        PlayFeedbackInternal(obj, eventCode);
     }
 
-    protected abstract void PlayFeedbackInternal(T entity);
+    protected abstract void PlayFeedbackInternal(T entity, string eventCode);
         
     public void StopFeedback(T obj)
     {

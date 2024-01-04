@@ -4,7 +4,8 @@ using UnityEngine;
 [Serializable]
 public abstract class BaseUniversalFeedbackEventSource<T> where T : class
 {
-    public abstract event Action<BaseFeedbackObject<T>, BaseFeedbackObject<T>, BaseFeedbackOption<T>> Triggered;
+    public string eventCode;
+    public abstract event Action<BaseFeedbackObject<T>, BaseFeedbackObject<T>, BaseFeedbackOption<T>, BaseUniversalFeedbackEventSource<T>> Triggered;
 
     protected abstract BaseFeedbackOption<T> Option { get; }
 
