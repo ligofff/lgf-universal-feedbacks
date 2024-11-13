@@ -39,5 +39,5 @@ public abstract class BaseFeedbackOption<T>
 
     protected virtual bool IsCanPlayInternal(T obj) => true;
 
-    protected abstract bool IsValidForFeedback(T obj);
+    public abstract bool IsValidForFeedback(T obj);
 }
